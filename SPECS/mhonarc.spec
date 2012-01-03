@@ -1,7 +1,7 @@
 %define  name mhonarc
 %define oname MHonArc
-%define version 2.6.16
-%define release %mkrel 6
+%define version 2.6.18
+%define release %mkrel 1
 
 Summary:	A Perl mail-to-HTML converter
 Name:		%name
@@ -26,7 +26,7 @@ features.
 %prep
 
 %setup -q -n %oname-%version 
-%patch0 -p0
+%patch0 -p1
 
 %build
 

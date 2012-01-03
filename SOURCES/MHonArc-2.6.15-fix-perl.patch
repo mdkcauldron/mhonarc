@@ -1,16 +1,44 @@
---- examples/mha-preview~	2005-07-05 04:06:21.000000000 +0200
-+++ examples/mha-preview	2007-01-17 17:20:47.000000000 +0100
+diff -Naur MHonArc-2.6.17/admin/mhaadmin.cgi MHonArc-2.6.17/admin/mhaadmin.cgi
+--- MHonArc-2.6.17/admin/mhaadmin.cgi	2001-12-24 14:31:57.000000000 +0100
++++ MHonArc-2.6.17/admin/mhaadmin.cgi	2011-01-09 12:04:17.059096001 +0100
+@@ -1,4 +1,4 @@
+-#!/usr/local/bin/perl
++#!/usr/bin/perl
+ ##---------------------------------------------------------------------------##
+ ##  File:
+ ##	$Id: mhaadmin.cgi,v 1.3 2001/12/24 13:31:57 ehood Exp $
+diff -Naur MHonArc-2.6.17/admin/mhaadmin.rc MHonArc-2.6.17/admin/mhaadmin.rc
+--- MHonArc-2.6.17/admin/mhaadmin.rc	1999-08-11 16:16:38.000000000 +0200
++++ MHonArc-2.6.17/admin/mhaadmin.rc	2011-01-09 12:04:10.541096003 +0100
+@@ -1,4 +1,4 @@
+-#!/usr/local/bin/perl
++#!/usr/bin/perl
+ ## mhaadmin.cgi resource file
+ 
+ ## The syntax of this file is Perl.  mhaadmin.cgi will require this file
+diff -Naur MHonArc-2.6.17/contrib/prsfrom.pl MHonArc-2.6.17/contrib/prsfrom.pl
+--- MHonArc-2.6.17/contrib/prsfrom.pl	2002-03-30 10:14:56.000000000 +0100
++++ MHonArc-2.6.17/contrib/prsfrom.pl	2011-01-09 12:04:03.698096000 +0100
+@@ -1,4 +1,4 @@
+-#!/net/nf/bin/perl
++#!/usr/bin/perl
+ #$Id: prsfrom.pl 1.2 1998/01/21 12:09:26 aburgers Exp aburgers $
+ # parse command-line arguments
+ 
+diff -Naur MHonArc-2.6.17/examples/mha-preview MHonArc-2.6.17/examples/mha-preview
+--- MHonArc-2.6.17/examples/mha-preview	2005-07-05 04:06:21.000000000 +0200
++++ MHonArc-2.6.17/examples/mha-preview	2011-01-09 12:02:32.322096001 +0100
 @@ -1,4 +1,4 @@
 -#!/usr/local/bin/perl
 +#!/usr/bin/perl
  ##---------------------------------------------------------------------------##
  ##  File:
  ##	$Id: mha-preview,v 1.4 2005/07/05 02:06:21 ehood Exp $
---- examples/mhasiteinit.pl~	2005-06-02 04:12:30.000000000 +0200
-+++ examples/mhasiteinit.pl	2007-01-17 17:23:05.000000000 +0100
-@@ -1,4 +1,4 @@
--#!/usr/local/bin/perl
+diff -Naur MHonArc-2.6.17/examples/mhasiteinit.pl MHonArc-2.6.17/examples/mhasiteinit.pl
+--- MHonArc-2.6.17/examples/mhasiteinit.pl	2011-01-03 07:42:39.000000000 +0100
++++ MHonArc-2.6.17/examples/mhasiteinit.pl	2011-01-09 12:03:15.356096000 +0100
+@@ -1,3 +1,4 @@
 +#!/usr/bin/perl
  ##---------------------------------------------------------------------------##
  ##  File:
- ##      $Id: mhasiteinit.pl,v 1.4 2005/06/02 02:12:30 ehood Exp $
+ ##      $Id: mhasiteinit.pl,v 1.6 2011/01/03 06:42:39 ehood Exp $
