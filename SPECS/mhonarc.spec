@@ -1,12 +1,9 @@
-%define  name mhonarc
 %define oname MHonArc
-%define version 2.6.18
-%define release %mkrel 3
 
 Summary:	A Perl mail-to-HTML converter
-Name:		%name
-Version:	%version
-Release:	%release
+Name:		mhonarc
+Version:	2.6.18
+Release:	%mkrel 3
 License:	GPLv2+
 Group:		Networking/WWW
 URL:		http://www.mhonarc.org/
