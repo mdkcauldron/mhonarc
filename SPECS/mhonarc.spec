@@ -3,7 +3,7 @@
 Summary:	A Perl mail-to-HTML converter
 Name:		mhonarc
 Version:	2.6.18
-Release:	%mkrel 4
+Release:	%mkrel 5
 License:	GPLv2+
 Group:		Networking/WWW
 URL:		http://www.mhonarc.org/
@@ -13,6 +13,8 @@ Requires:	perl >= 0:5.601
 BuildArch:	noarch
 
 Obsoletes:      MHonArc
+
+%global __requires_exclude  %{?__requires_exclude}|^perl\\((mhamain.pl|shellwords.pl)\\)
 
 %description
 MHonArc provides HTML mail archiving with index, mail thread linking, etc; plus
