@@ -24,7 +24,7 @@ features.
 %prep
 
 %setup -q -n %oname-%version 
-%patch0 -p1
+%autopatch -p1
 
 %build
 
