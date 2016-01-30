@@ -3,7 +3,7 @@
 Summary:	A Perl mail-to-HTML converter
 Name:		mhonarc
 Version:	2.6.18
-Release:	%mkrel 6
+Release:	%mkrel 7
 License:	GPLv2+
 Group:		Networking/WWW
 URL:		http://www.mhonarc.org/
