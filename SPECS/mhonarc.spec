@@ -2,13 +2,15 @@
 
 Summary:	A Perl mail-to-HTML converter
 Name:		mhonarc
-Version:	2.6.18
-Release:	%mkrel 7
+Version:	2.6.19
+Release:	1
 License:	GPLv2+
 Group:		Networking/WWW
 URL:		http://www.mhonarc.org/
 Source:		http://www.mhonarc.org/release/MHonArc/tar/%{oname}-%{version}.tar.bz2
-Patch0:         MHonArc-2.6.15-fix-perl.patch 
+
+# Patch based on debian that fixes some issues spotted after 2.6.19 release
+Patch0:		mhonarc-2.6.19.patch
 Requires:	perl >= 0:5.601
 BuildArch:	noarch
 
@@ -22,7 +24,6 @@ other capabilities including support for MIME and powerful user customization
 features. 
 
 %prep
-
 %setup -q -n %oname-%version 
 %autopatch -p1
 
